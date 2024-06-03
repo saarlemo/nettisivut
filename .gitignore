@@ -38,5 +38,5 @@ next-env.d.ts
 #
 app/projekteja*
 
-app/data/*
+data/*
 public/images/projektit/*
