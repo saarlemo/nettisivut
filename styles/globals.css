@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+*::selection {
+  background: #2F85DA;
+}
+
+html,
+body {
+  margin: 0; /* Reset default margin */
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  @apply flex flex-row lg:max-w-[1000px] shadow-lg font-lucida;
+  height:100%;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #1a1a1a;
+}
+/*  #7F5539, #A68A64, #EDE0D4, #656D4A, #414833 */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    background: #888;
+    border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 5px;
+}
+
+#root,
+#__next {
+  height: 100%; /* Ensure the Next.js root elements use full height */
+}
+
+@media (min-width: 1024px) { /* lg: 1024px by default in Tailwind */
+  .background-1 { /* https://medium.com/pixel-and-ink/avoiding-jagged-edges-on-gradients-f485cc7401f5 */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(
+      195deg,
+      #7F5539 33.33%,
+      transparent 33.53%
+    );
+    z-index: -1;
+    filter: drop-shadow(0 0 5px #000);
+  }
+  .background-2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(
+      195deg,
+      #A68A64 33.33%,
+      #A68A64 60%,
+      transparent 60.2%
+    );
+    z-index: -2;
+    filter: drop-shadow(0 0 5px #000);
+  }
+  .background-3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(
+      195deg,
+      #EDE0D4 60%,
+      #EDE0D4 60%
+    );
+    z-index: -3;
+  }
+
+  body {
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    height: calc(100vh - 2cm); /* This will ensure the body takes the full height minus margins */
+  }
+}
