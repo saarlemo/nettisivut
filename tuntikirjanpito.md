@@ -33,8 +33,9 @@
 |            |    1     | Tuntikirjanpito md-muotoon                                                                                    |
 |            |    1     | Readme.md                                                                                                     |
 |            |    1     | Teemojen värien suunnittelu                                                                                   |
+|            |    1     | .htaccess 404-ohjaus                                                                                          |
 |            |          |                                                                                                               |
-|            |   133    |																												|
+|            |   134    |																												|
 |			 |			| Dark mode																										|
 |			 |			| Projektisivu																									|
 |			 |			| TypeScript tyyppien lisääminen ja korjaus																		|				
