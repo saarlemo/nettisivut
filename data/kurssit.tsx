@@ -1,3 +1,4 @@
+// data/kurssit.tsx
 import { Kurssi } from '@/types/kurssi';
 
 const kurssit: Kurssi[] = [
@@ -1140,7 +1141,17 @@ const kurssit: Kurssi[] = [
         month: 3,
         day: 14,
         discipline: "tietojenkäsittelytiede",
-    }
+    },
+    {
+        school: "Itä-Suomen yliopisto",
+        name: "Magnetic Resonance Imaging",
+        code: "3352545",
+        credits: 5,
+        year: 2024,
+        month: 5,
+        day: 15,
+        discipline: "fysiikka",
+    },
 ];
 
 export default kurssit;

@@ -1,6 +1,6 @@
 // app/layout.tsx
-import '../styles/globals.css';
-import Sidebar from '../components/Sidebar';
+import '@/styles/globals.css';
+import Sidebar from '@/components/Sidebar';
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode; }>) {
     return (

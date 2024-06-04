@@ -1,11 +1,11 @@
 // app/page.tsx
-import { Metadata } from 'next'
+import { NextPage, Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Niilo Saarlemo',
 }
 
-export default function Home() {
+const Home: NextPage = () => {
     return (
         <div className="container mx-auto lg:pr-[6px] max-h-[100%] lg:overflow-auto">
             <main className="flex flex-col justify-center w-full h-full">
@@ -43,5 +43,6 @@ export default function Home() {
             </main>
         </div>
     );
-  }
-  
+}
+
+export default Home;

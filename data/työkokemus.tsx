@@ -1,3 +1,4 @@
+// data/työkokemus.tsx
 import { Tyokokemus } from "@/types/työkokemus";
 
 const työkokemus: Tyokokemus[] = [

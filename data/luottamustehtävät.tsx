@@ -1,3 +1,4 @@
+// data/luottamustehtävät.tsx
 import { Luottamustehtava } from "@/types/luottamustehtävä";
 
 const luottamustehtävät: Luottamustehtava[] = [

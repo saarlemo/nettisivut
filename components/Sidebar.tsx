@@ -3,7 +3,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import HamburgerIcon from './HamburgerIcon';
+import HamburgerIcon from '@/components/HamburgerIcon';
 
 const Sidebar = () => {
     const [isOpen, setIsOpen] = useState(false);

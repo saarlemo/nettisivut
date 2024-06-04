@@ -1,3 +1,4 @@
+// data/tutkinnot.tsx
 import { Tutkinto } from "@/types/tutkinto";
 
 const tutkinnot: Tutkinto[] = [
