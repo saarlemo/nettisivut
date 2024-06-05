@@ -17,3 +17,6 @@ jolloin sivusto pyörii osoitteessa [http://localhost:3000](http://localhost:300
     npm run build
 ```
 joka luo html- ja JavaScript- tiedostot kansioon /out.
+
+## Full stack -harjoitustyö
+Verkkosivut toimivat samalla Helsingin yliopiston Full stack -harjoitustyönä, jota varten on luotu tiedosto [tuntikirjanpito.md](/tuntikirjanpito.md).

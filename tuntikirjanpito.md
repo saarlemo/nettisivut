@@ -34,8 +34,10 @@
 |            |    1     | Readme.md                                                                                                     |
 |            |    1     | Teemojen värien suunnittelu                                                                                   |
 |            |    1     | .htaccess 404-ohjaus                                                                                          |
+| 05.06.2024 |    3     | .htaccess 404-ohjauksen vianmääritys                                                                          |
 |            |          |                                                                                                               |
-|            |   134    |																												|
+|            |   137    |																												|
+|			 |			| .htaccess ja 404																								|
 |			 |			| Dark mode																										|
 |			 |			| Projektisivu																									|
 |			 |			| TypeScript tyyppien lisääminen ja korjaus																		|				
