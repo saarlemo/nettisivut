@@ -35,9 +35,9 @@
 |            |    1     | Teemojen värien suunnittelu                                                                                   |
 |            |    1     | .htaccess 404-ohjaus                                                                                          |
 | 05.06.2024 |    3     | .htaccess 404-ohjauksen vianmääritys                                                                          |
+| 06.06.2024 |    4     | Dark mode css                                                                                                 |
 |            |          |                                                                                                               |
-|            |   137    |																												|
+|            |   141    |																												|
 |			 |			| .htaccess ja 404																								|
 |			 |			| Dark mode																										|
-|			 |			| Projektisivu																									|
-|			 |			| TypeScript tyyppien lisääminen ja korjaus																		|				
+|			 |			| Projektisivu																									|		

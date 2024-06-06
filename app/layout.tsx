@@ -4,7 +4,7 @@ import Sidebar from '@/components/Sidebar';
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode; }>) {
     return (
-        <html lang="en">
+        <html lang="en" className="dark">
             <body className="
                 flex
                 flex-row        
@@ -20,10 +20,11 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                     p-8
                     px-4
                     lg:pl-8
-
-                    bg-[#1a1a1a]
+                    bg-white
+                    dark:bg-[#1a1a1a]
                     lg:rounded-r
-                    text-white
+                    text-black
+                    dark:text-white
                     z-10
                     flex-grow
                 ">

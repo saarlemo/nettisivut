@@ -21,12 +21,11 @@ html {
 }
 
 body {
-  @apply flex flex-row lg:max-w-[1000px] shadow-lg font-lucida;
+  @apply bg-white dark:bg-[#1a1a1a] flex flex-row lg:max-w-[1000px] lg:shadow-lg font-lucida;
   height:100%;
   margin: 0 auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #1a1a1a;
 }
 /*  #7F5539, #A68A64, #EDE0D4, #656D4A, #414833 */
 
@@ -43,9 +42,22 @@ body {
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: white;
+    background: black;
     border-radius: 5px;
 }
+
+/* Track */
+.dark ::-webkit-scrollbar-track {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle */
+.dark ::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 5px;
+}
+
 
 #root,
 #__next {
