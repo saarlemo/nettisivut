@@ -36,8 +36,9 @@
 |            |    1     | .htaccess 404-ohjaus                                                                                          |
 | 05.06.2024 |    3     | .htaccess 404-ohjauksen vianmääritys                                                                          |
 | 06.06.2024 |    4     | Dark mode css                                                                                                 |
+| 07.06.2024 |    2     | Kommenttien siivous, konsolin virheilmoitusten korjaus                                                        |
+|            |    4     | SVG ja CSS-animaatio                                                                                          |
 |            |          |                                                                                                               |
-|            |   141    |																												|
+|            |   147    |																												|
 |			 |			| .htaccess ja 404																								|
-|			 |			| Dark mode																										|
 |			 |			| Projektisivu																									|		

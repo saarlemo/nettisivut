@@ -1,46 +1,28 @@
-import React, { useEffect, useRef } from 'react';
-
 interface Props {
     isOpen: boolean;
 }
 
 const HamburgerIcon: React.FC<Props> = ({ isOpen }) => {
-    const svgRef = useRef<SVGSVGElement | null>(null);
-
-    useEffect(() => {
-        if (isOpen) {
-          const svgElement = svgRef.current;
-          if (svgElement) {
-                const animationElement = svgElement.querySelector<SVGAnimationElement>('#start');
-                if (animationElement) {
-                    animationElement.beginElement();
-                }
-          }
-        } else if (!isOpen) {
-            const svgElement = svgRef.current;
-            if (svgElement) {
-                const animationElement = svgElement.querySelector<SVGAnimationElement>('#reverse');
-                if (animationElement) {
-                  animationElement.beginElement();
-                }
-              }
-        }
-      }, [isOpen]);
-
+    /* https://tailwindcomponents.com/component/animated-hamburger-menu-icon */
     return (
-        <svg ref={svgRef} className="w-8 h-8 stroke-black dark:stroke-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" strokeWidth=".6" fill="rgba(0,0,0,0)" strokeLinecap="round">
-            <path d="M2,3L5,3L8,3M2,5L8,5M2,7L5,7L8,7">
-                <animate dur="0.2s" attributeName="d" values="M2,3L5,3L8,3M2,5L8,5M2,7L5,7L8,7;M3,3L5,5L7,3M5,5L5,5M3,7L5,5L7,7" fill="freeze" begin="start.begin" />
-                <animate dur="0.2s" attributeName="d" values="M3,3L5,5L7,3M5,5L5,5M3,7L5,5L7,7;M2,3L5,3L8,3M2,5L8,5M2,7L5,7L8,7" fill="freeze" begin="reverse.begin" />
-            </path>
-            <rect width="10" height="10" stroke="none">
-                <animate dur="2s" id="reverse" attributeName="width" begin="click" />
-            </rect>
-            <rect width="10" height="10" stroke="none">
-                <animate dur="0.001s" id="start" attributeName="width" values="10;0" fill="freeze" begin="click" />
-                <animate dur="0.001s" attributeName="width" values="0;10" fill="freeze" begin="reverse.begin" />
-            </rect>
-        </svg>
+        <div className="group">
+            <div className="relative flex overflow-hidden items-center justify-center w-[100%] h-[100%] transform transition-all duration-200">
+                <div className="flex flex-col justify-between w-6 h-6 transform transition-all duration-300 origin-center overflow-hidden">
+                    <div className={isOpen 
+                        ? "bg-white h-[2px] w-9 transform transition-all duration-300 origin-left rotate-[42deg]"
+                        : "bg-white h-[2px] w-9 transform transition-all duration-300 origin-left"
+                    }></div>
+                    <div className={isOpen
+                        ? "bg-white h-[2px] w-9 rounded transform transition-all duration-300 -translate-x-10"
+                        : "bg-white h-[2px] w-9 rounded transform transition-all duration-300"
+                    }></div>
+                    <div className={isOpen
+                        ? "bg-white h-[2px] w-9 transform transition-all duration-300 origin-left -rotate-[42deg]"
+                        : "bg-white h-[2px] w-9 transform transition-all duration-300 origin-left"
+                    }></div>
+                </div>
+            </div>
+        </div>
     );
 };
 
