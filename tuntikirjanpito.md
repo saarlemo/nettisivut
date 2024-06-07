@@ -40,5 +40,6 @@
 |            |    4     | SVG ja CSS-animaatio                                                                                          |
 |            |          |                                                                                                               |
 |            |   147    |																												|
+|			 |			| Omien tietojen poistaminen main-branchista																	|
 |			 |			| .htaccess ja 404																								|
 |			 |			| Projektisivu																									|		
