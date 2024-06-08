@@ -13,7 +13,6 @@ interface CreditsBarChartProps {
     kurssit: Kurssi[];
 }
 
-// Define the chart component
 const CreditsBarChart: FC<CreditsBarChartProps> = ({ kurssit }) => {
     // Calculate credits per academic year
     const allYears = kurssit.map(course => course.month >= 8 ? course.year : course.year - 1);
