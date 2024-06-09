@@ -40,3 +40,4 @@ app/projekteja*
 public/*
 
 components/DarkModeToggle.tsx
+.env

@@ -38,8 +38,11 @@
 | 06.06.2024 |    4     | Dark mode css                                                                                                 |
 | 07.06.2024 |    2     | Kommenttien siivous, konsolin virheilmoitusten korjaus                                                        |
 |            |    4     | SVG ja CSS-animaatio                                                                                          |
+| 08.06.2024 |    6     | Googlen indeksointi                                                                                           |
+| 09.06.2024 |    1     | Googlen indeksointi                                                                                           |
+|            |    4     | XML sitemap                                                                                                   |
 |            |          |                                                                                                               |
-|            |   147    |																												|
+|            |   158    |																												|
 |			 |			| Omien tietojen poistaminen main-branchista																	|
 |			 |			| .htaccess ja 404																								|
 |			 |			| Projektisivu																									|		
