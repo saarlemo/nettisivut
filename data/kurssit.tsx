@@ -1152,6 +1152,16 @@ const kurssit: Kurssi[] = [
         day: 15,
         discipline: "fysiikka",
     },
+    {
+        school: "Itä-Suomen yliopisto",
+        name: "Biomedical Instrumentation",
+        code: "LS00DB65",
+        credits: 5,
+        year: 2024,
+        month: 6,
+        day: 10,
+        discipline: "fysiikka",
+    },
 ];
 
 export default kurssit;
