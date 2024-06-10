@@ -44,7 +44,7 @@
 | 10.06.2024 |    3     | Projektisivun ideointi, kurssien päivitys                                                                     |
 |            |          |                                                                                                               |
 |            |   161    |																												|
-|			 |			| <Image /> käyttöönotto                    																	|
+|			 |			| Image-elementin käyttöönotto                    																|
 |			 |			| favicon.ico                               																	|
 |			 |			| Omien tietojen poistaminen main-branchista																	|
 |			 |			| .htaccess ja 404																								|
