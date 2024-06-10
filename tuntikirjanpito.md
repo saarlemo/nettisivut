@@ -45,6 +45,7 @@
 |            |          |                                                                                                               |
 |            |   161    |																												|
 |			 |			| <Image /> käyttöönotto                    																	|
+|			 |			| favicon.ico                               																	|
 |			 |			| Omien tietojen poistaminen main-branchista																	|
 |			 |			| .htaccess ja 404																								|
 |			 |			| Projektisivu																									|		
