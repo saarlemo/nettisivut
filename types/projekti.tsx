@@ -5,4 +5,7 @@ export interface Projekti {
     description: string;
     detailedDescription: string;
     imageUrl: string[];
+    year: number,
+    month: number,
+    day?: number,
 }

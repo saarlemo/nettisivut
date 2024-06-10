@@ -41,8 +41,9 @@
 | 08.06.2024 |    6     | Googlen indeksointi                                                                                           |
 | 09.06.2024 |    1     | Googlen indeksointi                                                                                           |
 |            |    4     | XML sitemap                                                                                                   |
+| 10.06.2024 |    2     | Projektisivun ideointi, kurssien päivitys                                                                     |
 |            |          |                                                                                                               |
-|            |   158    |																												|
+|            |   160    |																												|
 |			 |			| Omien tietojen poistaminen main-branchista																	|
 |			 |			| .htaccess ja 404																								|
 |			 |			| Projektisivu																									|		
