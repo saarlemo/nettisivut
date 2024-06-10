@@ -8,7 +8,7 @@ const projektit: Projekti[] = [
         description: "Laitteiston kokoaminen tasapainon rekisteröintiin ja asennon reaaliaikainen visualisointi",
         detailedDescription: "", // Tähän polku .md-tiedostoon?
         imageUrl: [
-            "/public/projektit/tasapainolauta/tasapainolauta.jpg",
+            "/projektit/tasapainolauta/tasapainolauta.jpg",
         ],
         year: 2022,
         month: 6,
@@ -19,7 +19,7 @@ const projektit: Projekti[] = [
         description: "Henkilökohtaiset verkkosivut: projektien esittely ja CV",
         detailedDescription: "", // Tähän polku .md-tiedostoon?
         imageUrl: [
-            "/public/projektit/verkkosivut/verkkosivut.png",
+            "/projektit/verkkosivut/verkkosivut.png",
         ],
         year: 2024,
         month: 6,
