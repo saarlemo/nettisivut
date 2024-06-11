@@ -19,6 +19,7 @@ const ProjectDetail = ({ params }: { params: { id: number } }) => {
     return (
         <div className="container mx-auto lg:pr-[6px] max-h-[100%] lg:overflow-auto">
             <h1 className="text-4xl mb-1">{projekti.title}</h1>
+            <p>{projekti.description}</p>
             {/*<img src={projekti.imageUrl} alt={projekti.title} className="w-full h-64 object-cover mb-4" />*/}
             <MarkdownRenderer filePath={projekti.detailedDescription} />
         </div>
