@@ -36,7 +36,5 @@ yarn-error.log*
 next-env.d.ts
 
 #
-public/*
-
 components/DarkModeToggle.tsx
 .env
