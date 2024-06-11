@@ -42,10 +42,14 @@
 | 09.06.2024 |    1     | Googlen indeksointi                                                                                           |
 |            |    4     | XML sitemap                                                                                                   |
 | 10.06.2024 |    3     | Projektisivun ideointi, kurssien päivitys                                                                     |
-|            |          |                                                                                                               |
-|            |   161    |																												|
+| 11.06.2024 |    4     | Projektisivun kehitys                                                                                         |
+|            |          |																												|
+|            |   165    |																												|
 |			 |			| Image-elementin käyttöönotto                    																|
 |			 |			| favicon.ico                               																	|
 |			 |			| Omien tietojen poistaminen main-branchista																	|
 |			 |			| .htaccess ja 404																								|
 |			 |			| Projektisivu																									|		
+|			 |			| verkkosivut.md täyttö 																						|		
+|			 |			| gc-kartta.md täyttö   																						|		
+|			 |			| tasapainolauta.md täyttö 																						|		

@@ -6,7 +6,7 @@ const projektit: Projekti[] = [
         id: 1,
         title: "Tasapainon kvantifiointi",
         description: "Laitteiston kokoaminen tasapainon rekisteröintiin ja asennon reaaliaikainen visualisointi",
-        detailedDescription: "", // Tähän polku .md-tiedostoon?
+        detailedDescription: "/projektit/tasapainolauta/tasapainolauta.md",
         imageUrl: [
             "/projektit/tasapainolauta/tasapainolauta.jpg",
         ],
@@ -15,9 +15,20 @@ const projektit: Projekti[] = [
     },
     {
         id: 2,
+        title: "Geokätkökartta",
+        description: "Digitaalinen apuväline geokätköjen löytämiseen",
+        detailedDescription: "/projektit/gc-kartta/gc-kartta.md",
+        imageUrl: [
+            "/projektit/gc-kartta/gc-kartta.png",
+        ],
+        year: 2023,
+        month: 12,
+    },
+    {
+        id: 3,
         title: "Verkkosivut",
         description: "Henkilökohtaiset verkkosivut: projektien esittely ja CV",
-        detailedDescription: "", // Tähän polku .md-tiedostoon?
+        detailedDescription: "/projektit/verkkosivut/verkkosivut.md",
         imageUrl: [
             "/projektit/verkkosivut/verkkosivut.png",
         ],

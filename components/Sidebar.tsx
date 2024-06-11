@@ -92,13 +92,13 @@ const Sidebar = () => {
             >
                 <div className="p-4">
                     <nav className="flex flex-col divide-y divide-black dark:divide-[#888]">
-                        <Link href="./" className="rounded-t relative flex h-12 w-auto items-center justify-center overflow-hidden text-black dark:text-white transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-opacity-20 before:bg-white before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56" onClick={() => setHelper(false)}>
+                        <Link href="/" className="rounded-t relative flex h-12 w-auto items-center justify-center overflow-hidden text-black dark:text-white transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-opacity-20 before:bg-white before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56" onClick={() => setHelper(false)}>
                             <span className="relative z-10">Etusivu</span>
                         </Link>
-                        <Link href="cv" className="relative flex h-12 w-auto items-center justify-center overflow-hidden text-black dark:text-white transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-opacity-20 before:bg-white before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56" onClick={() => setHelper(false)}>
+                        <Link href="/cv" className="relative flex h-12 w-auto items-center justify-center overflow-hidden text-black dark:text-white transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-opacity-20 before:bg-white before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56" onClick={() => setHelper(false)}>
                         <span className="relative z-10">CV</span>
                         </Link>
-                        <Link href="projekteja" className="rounded-b relative flex h-12 w-auto items-center justify-center overflow-hidden text-black dark:text-white transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-opacity-20 before:bg-white before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56" onClick={() => setHelper(false)}>
+                        <Link href="/projekteja" className="rounded-b relative flex h-12 w-auto items-center justify-center overflow-hidden text-black dark:text-white transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-opacity-20 before:bg-white before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56" onClick={() => setHelper(false)}>
                             <span className="relative z-10">Projekteja</span>
                         </Link>
                     </nav>
