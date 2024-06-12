@@ -1,6 +1,7 @@
 // app/projekteja/page.tsx
 import { Metadata, NextPage } from "next";
 import Link from 'next/link';
+import Image from 'next/image'
 import projektit from '@/data/projektit';
 import { Projekti } from "@/types/projekti";
 
@@ -31,13 +32,18 @@ const Projects: NextPage = () => {
                 <h1 className="text-2xl lg:text-5xl font-bold text-center mb-8">Projekteja</h1>
                 {projektit.map((p: Projekti) => (
                     <Link href={`/projekteja/${p.id}`} key={p.id} className="space-x-4 py-8 px-2 lg:px-8 flex w-[100%] transition-all hover:bg-white hover:bg-opacity-20">
-                        <img src={p.imageUrl[0]} alt={p.title} className="w-20 lg:w-32 object-cover" />
+                        <Image
+                            src={p.imageUrl[0]}
+                            alt={p.description}
+                            width={300}
+                            height={200}
+                            className="w-20 lg:w-32 object-cover"
+                        />
                         <div className="py-4 w-[100%] flex flex-col justify-between">
                             <div className="w-[100%]">
                                 <h2 className="lg:text-xl text-white font-semibold float-left">{p.title}</h2>
-                                <p className="lg:text-xl text-white font-semibold float-right">{p.month}/{p.year}</p>
-                            </div>
-                            
+                                <p className="lg:text-xl text-white float-right">{p.month}/{p.year}</p>
+                            </div>         
                             <p className="text-white">{p.description}</p>
                         </div>
                     </Link>

@@ -4,6 +4,7 @@ const nextConfig = {
     skipTrailingSlashRedirect: true,
     assetPrefix: './',
     basePath: '',
+    images: { unoptimized: true }
 };
 
 export default nextConfig;
