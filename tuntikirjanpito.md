@@ -46,9 +46,9 @@
 |            |    1     | .md ja css testaus																							|
 | 12.06.2024 |    1		| Image-elementin käyttöönotto                    																|
 |			 |	  4		| Projektisivun kuvat																							|
+|            |    1     | Projektien kuvaukset																							|
 |            |          |																												|
-|            |   171    |																												|
+|            |   172    |																												|
 |			 |			| favicon.ico                               																	|
 |			 |			| Omien tietojen poistaminen main-branchista																	|
 |			 |			| .htaccess ja 404																								|
-|			 |			| verkkosivut.md täyttö 																						|		
