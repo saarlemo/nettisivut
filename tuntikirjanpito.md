@@ -52,4 +52,3 @@
 |			 |			| Omien tietojen poistaminen main-branchista																	|
 |			 |			| .htaccess ja 404																								|
 |			 |			| verkkosivut.md täyttö 																						|		
-|			 |			| tasapainolauta.md täyttö 																						|		
