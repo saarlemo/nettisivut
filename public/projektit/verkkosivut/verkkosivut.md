@@ -1,0 +1,2 @@
+## Full stack -harjoitustyö
+Verkkosivut toimivat [Helsingin yliopiston Full stack -kurssin](https://fullstackopen.com) harjoitustyönä. Varsinaisen kurssin kävin lukuvuonna 2020, jolloin frontend-kehitys tapahtui pääosin Reactilla. [Next.js](https://nextjs.org/), jolla nämä sivut ovat toteutettu, pohjautuu myös Reactiin.
