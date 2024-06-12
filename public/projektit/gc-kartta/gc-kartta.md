@@ -1,5 +1,5 @@
 ## Mitä geokätköily on ja kuinka se toimii?
-Geokätköily on maailmanlaajuinen ulkoiluharrastus, jonka ideana on käyttää miljardien eurojen arvoista GPS-teknologiaa pakasterasioiden etsimiseen ympäristöstä. Kätkö koostuu vesitiiviistä astiasta, joka sisältää lokikirjan, kynän ja mahdollisesti pieniä vaihtotavaroita. Osalle kätköistä koordinaatit ovat näkyvillä avoimesti [geokätkösivustolla](https://geocaching.com), mutta joidenkin kätköjen löytäminen vaatii jonkinlaisen pähkinän ratkaisemisen.
+Geokätköily on maailmanlaajuinen ulkoiluharrastus, jonka ideana on käyttää miljardien eurojen arvoista GPS-teknologiaa pakasterasioiden etsimiseen ympäristöstä. Kätkö koostuu vesitiiviistä rasiasta, joka sisältää lokikirjan, kynän ja mahdollisesti pieniä vaihtotavaroita. Osalle kätköistä koordinaatit ovat näkyvillä avoimesti [geokätkösivustolla](https://geocaching.com), mutta joidenkin kätköjen löytäminen vaatii jonkinlaisen pähkinän ratkaisemisen.
 
 Kuka tahansa geokätköilijä voi luoda oman kätkön. Kätkön sijoittamiselle on kuitenkin omat vakiintuneet sääntönsä: esimerkiksi etäisyyden lähimpään kätköön täytyy olla vähintään kymmenesosa mailista, eli noin 161 metriä.
 

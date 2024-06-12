@@ -45,9 +45,9 @@
 | 11.06.2024 |    4     | Projektisivun kehitys                                                                                         |
 |            |    1     | .md ja css testaus																							|
 | 12.06.2024 |    1		| Image-elementin käyttöönotto                    																|
+|			 |	  4		| Projektisivun kuvat																							|
 |            |          |																												|
-|            |   167    |																												|
-|			 |			| Projektisivun kuvat																							|
+|            |   171    |																												|
 |			 |			| favicon.ico                               																	|
 |			 |			| Omien tietojen poistaminen main-branchista																	|
 |			 |			| .htaccess ja 404																								|
