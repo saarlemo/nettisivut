@@ -34,7 +34,7 @@ const ImageCarousel: React.FC<CarouselProps> = ({ images }) => {
                             width={600}
                             height={400}
                             alt={`Projektin kuva ${index}`}
-                            className="mx-auto w-auto max-w-[80%] h-full object-cover"
+                            className="mx-auto w-auto max-w-[80%] max-h-full object-cover"
                         />
                     </div>
                 ))}
