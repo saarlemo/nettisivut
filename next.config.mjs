@@ -1,8 +1,10 @@
 /** @type {import('next').NextConfig} */
+
+const isProd = process.env.NODE_ENV === 'production'
 const nextConfig = {
     output: 'export',
     skipTrailingSlashRedirect: true,
-    assetPrefix: './',
+    assetPrefix: isProd ? 'https://saarlemo.fi/' : "./",
     basePath: '',
     images: { unoptimized: true }
 };
