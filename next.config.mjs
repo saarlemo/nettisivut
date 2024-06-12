@@ -4,7 +4,7 @@ const isProd = process.env.NODE_ENV === 'production'
 const nextConfig = {
     output: 'export',
     trailingSlash: true,
-    assetPrefix: isProd ? 'https://saarlemo.fi/' : "./",
+    assetPrefix: isProd ? 'https://saarlemo.fi/' : "/",
     basePath: '',
     images: { unoptimized: true }
 };

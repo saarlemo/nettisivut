@@ -47,8 +47,8 @@
 | 12.06.2024 |    1		| Image-elementin käyttöönotto                    																|
 |			 |	  4		| Projektisivun kuvat																							|
 |            |    1     | Projektien kuvaukset																							|
-|            |          |																												|
-|            |   172    |																												|
+|            |    1     | Mobiili-CSS korjaus                                                                                           |
+|            |          |                   																							|
+|            |   173    |																												|
 |			 |			| favicon.ico                               																	|
 |			 |			| Omien tietojen poistaminen main-branchista																	|
-|			 |			| .htaccess ja 404																								|

@@ -19,8 +19,8 @@ const ImageCarousel: React.FC<CarouselProps> = ({ images }) => {
     }
 
     return (
-        <div className="relative w-full h-96 max-w-4xl mx-auto">
-            <div className={`relative overflow-hidden ${images.length === 1 ? "h-full" : "h-[90%]" } w-full`}>
+        <div className="relative w-full h-64 md:h-96 mx-auto">
+            <div className={`relative overflow-hidden ${images.length === 1 ? "h-full" : "h-[80%] md:h-[90%]" } w-full`}>
                 {images.map((image, index) => (
                     <div
                         key={index}
@@ -39,7 +39,7 @@ const ImageCarousel: React.FC<CarouselProps> = ({ images }) => {
                     </div>
                 ))}
             </div>
-            <div className={`flex flex-row relative w-full ${images.length === 1 ? "hidden" : "h-[10%]" } w-full`}>
+            <div className={`flex flex-row relative w-full ${images.length === 1 ? "hidden" : "h-[20%] md:h-[10%]" } w-full`}>
                 <button
                     onClick={goToPrevious}
                     className="flex items-center justify-end h-full w-full"
