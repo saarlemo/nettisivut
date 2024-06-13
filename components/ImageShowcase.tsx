@@ -1,13 +1,13 @@
-// components/ImageCarousel.tsx
+// components/ImageShowcase.tsx
 'use client'
 import Image from 'next/image';
 import { useState } from 'react';
 
-interface CarouselProps {
+interface ShowcaseProps {
     images: string[];
 }
 
-const ImageCarousel: React.FC<CarouselProps> = ({ images }) => {
+const ImageShowcase: React.FC<ShowcaseProps> = ({ images }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const goToPrevious = () => {
@@ -19,27 +19,25 @@ const ImageCarousel: React.FC<CarouselProps> = ({ images }) => {
     }
 
     return (
-        <div className="relative w-full h-64 md:h-96 mx-auto">
-            <div className={`relative overflow-hidden ${images.length === 1 ? "h-full" : "h-[80%] md:h-[90%]" } w-full`}>
-                {images.map((image, index) => (
-                    <div
-                        key={index}
-                        className={`absolute inset-0 transition-transform transform ${
-                            index === currentIndex ? 'translate-x-0' : 'translate-x-full'
-                        }`}
-                        style={{ transitionDuration: '500ms'}}
-                    >
-                        <Image
-                            src={image}
-                            width={600}
-                            height={400}
-                            alt={`Projektin kuva ${index}`}
-                            className="mx-auto w-auto max-w-[80%] max-h-full object-cover"
-                        />
-                    </div>
-                ))}
-            </div>
-            <div className={`flex flex-row relative w-full ${images.length === 1 ? "hidden" : "h-[20%] md:h-[10%]" } w-full`}>
+        <div className="relative w-full h-auto mx-auto">
+            {images.map((image, index) => (
+                <div
+                    key={index}
+                    className={`
+                        ${index === currentIndex ? 'visible' : 'hidden'}
+                    `}
+                    style={{ transitionDuration: '500ms'}}
+                >
+                    <Image
+                        src={image}
+                        width={600}
+                        height={400}
+                        alt={`Projektin kuva ${index}`}
+                        className="mx-auto w-auto h-96 max-w-[80%] max-h-[calc(80vw)] object-contain"
+                    />
+                </div>
+            ))}
+            <div className={`flex flex-row relative w-full ${images.length === 1 ? "hidden" : "h-8 md:h-16" } w-full`}>
                 <button
                     onClick={goToPrevious}
                     className="flex items-center justify-end h-full w-full"
@@ -64,9 +62,8 @@ const ImageCarousel: React.FC<CarouselProps> = ({ images }) => {
                     <div className="inline-block w-4 h-4 border-t-2 border-r-2 border-white transform rotate-45"></div>
                 </button>
             </div>
-            
         </div>
     )
 }
 
-export default ImageCarousel;
+export default ImageShowcase

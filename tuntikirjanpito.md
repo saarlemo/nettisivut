@@ -48,7 +48,8 @@
 |			 |	  4		| Projektisivun kuvat																							|
 |            |    1     | Projektien kuvaukset																							|
 |            |    1     | Mobiili-CSS korjaus                                                                                           |
-|            |          |                   																							|
-|            |   173    |																												|
+| 13.06.2024 |    3     | Kuvien CSS:n korjaus 																							|
+|            |          |																												|
+|            |   176    |																												|
 |			 |			| favicon.ico                               																	|
 |			 |			| Omien tietojen poistaminen main-branchista																	|

@@ -1,8 +1,8 @@
 // app/projekteja/[id]/page.tsx
 import MarkdownRenderer from '@/components/MarkdownRenderer';
 import projektit from '@/data/projektit';
-import ImageCarousel from '@/components/ImageCarousel';
 import { Projekti } from '@/types/projekti';
+import ImageShowcase from '@/components/ImageShowcase';
 
 export const generateStaticParams = () => {
     return projektit.map((p) => ({
@@ -21,8 +21,7 @@ const ProjectDetail = ({ params }: { params: { id: number } }) => {
         <div className="container mx-auto lg:pr-[6px] max-h-[100%] lg:overflow-auto">
             <h1 className="text-4xl mb-1">{projekti.title}</h1>
             <p className="mb-1">{projekti.description}</p>
-            <ImageCarousel images={projekti.imageUrl} />
-            {/*<img src={projekti.imageUrl} alt={projekti.title} className="w-full h-64 object-cover mb-4" />*/}
+            <ImageShowcase images={projekti.imageUrl} />
             <MarkdownRenderer filePath={projekti.detailedDescription} />
         </div>
     );
