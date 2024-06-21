@@ -37,6 +37,14 @@ const projektit: Projekti[] = [
         detailedDescription: "/projektit/haalarit/haalarit.md",
         images: [
             {
+                url: "/projektit/haalarit/haalarit1.jpg",
+                description: "Valmiit haalarit",
+            },
+            {
+                url: "/projektit/haalarit/haalarit2.jpg",
+                description: "Valmiit haalarit",
+            },
+            {
                 url: "/projektit/haalarit/haalarit3.jpg",
                 description: "Haalarien lahje",
             },
@@ -65,7 +73,7 @@ const projektit: Projekti[] = [
     {
         id: 5,
         title: "Moottoripyörän etanolikonversio",
-        description: "BMW:n muuttaminen toimimaan E85-bioetanolilla",
+        description: "BMW G310GS:n muuttaminen toimimaan E85-bioetanolilla",
         detailedDescription: "/projektit/etanolikonversio/etanolikonversio.md",
         images: [
             {
