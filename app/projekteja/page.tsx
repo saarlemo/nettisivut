@@ -15,16 +15,13 @@ const Projects: NextPage = () => {
         const dateA = new Date(a.year, a.month - 1, 1); // month is 0-based
         const dateB = new Date(b.year, b.month - 1, 1); // month is 0-based
         
+        if (dateB.valueOf() == dateA.valueOf()) {
+            return (b.id - a.id);
+        }
+
         // Compare the dates in descending order
         return (dateB.valueOf() - dateA.valueOf());
     });
-
-    // Assign id to each project: from oldest to newest
-    projektit.reverse(); // Reverse in-place
-    projektit.forEach((item, i) => {
-        item.id = i + 1;
-    })
-    projektit.reverse(); // Reverse in-place
 
     return (
         <div className="container mx-auto lg:pr-[6px] max-h-[100%] lg:overflow-auto">
@@ -33,10 +30,10 @@ const Projects: NextPage = () => {
                 {projektit.map((p: Projekti) => (
                     <Link href={`/projekteja/${p.id}`} key={p.id} className="space-x-4 py-8 px-2 lg:px-8 flex w-[100%] transition-all hover:bg-white hover:bg-opacity-20">
                         <Image
-                            src={p.imageUrl[0]}
+                            src={p.images[0].url}
                             alt={p.description}
-                            width={300}
-                            height={200}
+                            width={150}
+                            height={100}
                             className="w-20 lg:w-32 object-cover"
                         />
                         <div className="py-4 w-[100%] flex flex-col justify-between">

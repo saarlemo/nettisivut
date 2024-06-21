@@ -19,9 +19,9 @@ const ProjectDetail = ({ params }: { params: { id: number } }) => {
 
     return (
         <div className="container mx-auto lg:pr-[6px] max-h-[100%] lg:overflow-auto">
-            <h1 className="text-4xl mb-1">{projekti.title}</h1>
-            <p className="mb-1">{projekti.description}</p>
-            <ImageShowcase images={projekti.imageUrl} />
+            <h1 className="text-4xl mb-2">{projekti.title}</h1>
+            <p className="mb-2">{projekti.description}</p>
+            <ImageShowcase images={projekti.images} />
             <MarkdownRenderer filePath={projekti.detailedDescription} />
         </div>
     );

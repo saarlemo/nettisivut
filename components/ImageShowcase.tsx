@@ -3,8 +3,13 @@
 import Image from 'next/image';
 import { useState } from 'react';
 
+interface ProjektiKuva {
+    url: string,
+    description?: string,
+}
+
 interface ShowcaseProps {
-    images: string[];
+    images: ProjektiKuva[];
 }
 
 const ImageShowcase: React.FC<ShowcaseProps> = ({ images }) => {
@@ -21,21 +26,23 @@ const ImageShowcase: React.FC<ShowcaseProps> = ({ images }) => {
     return (
         <div className="relative w-full h-auto mx-auto">
             {images.map((image, index) => (
-                <div
+                <figure
                     key={index}
                     className={`
                         ${index === currentIndex ? 'visible' : 'hidden'}
+                        h-96
+                        relative
                     `}
                     style={{ transitionDuration: '500ms'}}
                 >
                     <Image
-                        src={image}
+                        src={image.url}
                         width={600}
                         height={400}
                         alt={`Projektin kuva ${index}`}
                         className="mx-auto w-auto h-96 max-w-[80%] max-h-[calc(80vw)] object-contain"
                     />
-                </div>
+                </figure>
             ))}
             <div className={`flex flex-row relative w-full ${images.length === 1 ? "hidden" : "h-8 md:h-16" } w-full`}>
                 <button
@@ -61,6 +68,9 @@ const ImageShowcase: React.FC<ShowcaseProps> = ({ images }) => {
                 >
                     <div className="inline-block w-4 h-4 border-t-2 border-r-2 border-white transform rotate-45"></div>
                 </button>
+            </div>
+            <div className="h-auto text-center">
+                    Kuva {currentIndex+1}: {images[currentIndex].description}
             </div>
         </div>
     )

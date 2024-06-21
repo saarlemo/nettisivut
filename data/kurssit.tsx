@@ -1154,6 +1154,16 @@ const kurssit: Kurssi[] = [
     },
     {
         school: "Itä-Suomen yliopisto",
+        name: "Johtamisen perusteet",
+        code: "5210104",
+        credits: 6,
+        year: 2024,
+        month: 6,
+        day: 4,
+        discipline: "liiketaloustiede",
+    },
+    {
+        school: "Itä-Suomen yliopisto",
         name: "Biomedical Instrumentation",
         code: "LS00DB65",
         credits: 5,
